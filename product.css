@@ -11,6 +11,56 @@
 
 }
 
+/*SLIDER CSS */
+
+.min-max label {
+    font-size: 1rem;
+    float: left;
+    margin-right: 5px;
+    line-height: 1.6;
+}
+
+.min {
+    float: left;
+}
+
+.max {
+    float: right;
+}
+
+.min-max {
+    width: 90%;
+    max-width: 12rem;
+    margin: 0 auto;
+    padding: 1.5rem 0px 1rem 0px;
+}
+
+.min-max span {
+    font-size: 1rem;
+    text-align: center;
+    display: inline-block;
+    width: 3rem;
+    border: 1px solid var(--ec-primary-color);
+}
+
+.min-max-range {
+    padding: 2rem 0px 1.5rem 0px;
+}
+
+.range {
+   
+    appearance: none;
+    width: 50%;
+    height: 0.4rem;
+    max-width: 24rem;
+    background-color: var(--primary-white);
+    margin: 0;
+    padding: 0;
+    outline: none;
+    float: left;
+}
+
+/*SLIDER CSS ENDS*/
 .ec-product-filter {
 
 

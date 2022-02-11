@@ -38,8 +38,24 @@
                         <div class="h3">Filters</div>
                         <a class="h5 italic-text" href="">Clear!</a>
                     </div>
+                    <div class="price-slider">
+                        <div class="h5">Price Range:</div>
+                        <div class="min-max">
+                            <div class="min">
+                                <label>Min</label><span id="min-value"></span>
+                            </div>
+                            <div class="max">
+                                <label>Max</label><span id="max-value"></span>
+                            </div>
+                        </div>
 
-                    <div class="h5">Price Range:</div>
+                        <div class="min-max-range">
+                            <input type="range" min="0" max="5000" value="2000" class="range" id="min">
+                            <input type="range" min="5001" max="10000" value="8000" class="range" id="max">
+                        </div>
+
+                        <div style="clear: both;"></div>
+                    </div>
                     <div class="ec-category">
                         <div class="h5">Category:</div>
                         <div class="ec-checkbox">
@@ -256,3 +272,7 @@
             </div>
 
         </div>
+
+    </div>
+    <script src="slider.js"></script>
+</body>
