@@ -11,7 +11,7 @@
 :root {
 
     --ec-primary-color: #003B4A;
-    --ec-secondary-background: #78a6b8;
+    --ec-secondary-background: #b4d7d9ad;
 }
 
 body {
@@ -23,6 +23,7 @@ body {
 
 a {
     color: var(--ec-primary-color);
+    font-size: 1rem;
 }
 
 .ec-main-icon {
@@ -35,7 +36,10 @@ a {
     max-width: 100rem;
 
 }
+.cart-icons{
 
+    font-size: 1.5rem;
+}
 .ec-navbar-wrapper {
 
     display: flex;
@@ -166,8 +170,6 @@ a {
 }
 
 .footer-inner {
-
-
     height: 10rem;
     padding: 2rem;
     display: flex;
